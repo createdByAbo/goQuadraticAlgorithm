@@ -21,9 +21,9 @@ func main() {
 	if a == 0 {
 		if b == 0 {
 			if c == 0 {
-				fmt.Println("równanie tożsamościowe")
+				fmt.Println("identity equation")
 			} else {
-				fmt.Println("równanie sprzeczne")
+				fmt.Println("contradictory equation")
 			}
 		} else {
 			var x float64 = float64(-c / b)
@@ -38,10 +38,10 @@ func main() {
 		fmt.Println("delta = ", delta)
 
 		if delta < 0 {
-			fmt.Println("Brak rozwiązań")
+			fmt.Println("No solutions")
 		} else {
 			if delta == 0 {
-				fmt.Println("jedno rozwiązanie - wynik = ", delta)
+				fmt.Println("One solution - Result = ", delta)
 			} else {
 				var ax2 int = 2 * a
 
