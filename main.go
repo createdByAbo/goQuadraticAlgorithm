@@ -4,14 +4,14 @@ import "fmt"
 
 func main() {
 	fmt.Println("Enter a value:")
-	var a int
+	var a float64
 	fmt.Scanln(&a)
 	fmt.Println("Enter b value:")
-	var b int
+	var b float64
 	fmt.Scanln(&b)
 	fmt.Println("Enter c value:")
-	var c int
+	var c float64
 	fmt.Scanln(&c)
 
-	quadraticEquation(float32(a), float32(b), float32(c))
+	quadraticEquation(a, b, c)
 }
