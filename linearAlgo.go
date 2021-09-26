@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func linearAlgo() {
-	fmt.Println("linearAlgo")
+func linearEquation() {
+	fmt.Println("linear")
 }
