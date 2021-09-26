@@ -1,3 +1,3 @@
-module example.com/m
+module quadraticAlgorithm
 
 go 1.16
